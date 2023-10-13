@@ -74,6 +74,6 @@ mv "$output" "torrents/$output"
 To run the script all you need to do is
 1. Navigate to where you saved the script.
 2. Make it executable.
-    chmod +x mktorrent-hardlink.sh
-3. Run the script
-    ./mktorrent-hardlink.sh
+```chmod +x mktorrent-hardlink.sh```
+4. Run the script
+```./mktorrent-hardlink.sh```
