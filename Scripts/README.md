@@ -48,7 +48,7 @@ name="your_folder_name"
 ```
 hardlink="/path/to/hardlink/$name"
 ```
-4. Replace "*https://tracker.com/announce*"with announce URL
+4. Replace the URL with announce URL
 ```
 announce="https://tracker.com/announce"
 ```
