@@ -10,11 +10,10 @@ A script to make your life easier when creating torrents IF you use mktorrent wh
 
 ## The logic behind Piece Size
 First we calculate the size of torrent we're creating.
-    fsize="$(du -sm "$hardlink" | awk '{print $1}')"
+```fsize="$(du -sm "$hardlink" | awk '{print $1}')"```
 
 Now that we calculated the size, we'll check which *Piece Size* we should choose, the logic behind this is that we preferably want the number of pieces for the torrent to be between 1000-2000. 
-This piece of code will check if the files we want to create a torrent from are less than X MB, and depending on the size of the files, it will choose the Piece Size.
-    "$fsize" -le xxx
+This piece of code ```"$fsize" -le xxx``` will check if the files we want to create a torrent from are less than X MB, and depending on the size of the files, it will choose the Piece Size.
 
 I've listed which *Piece Size* will be selected if the files sizes are less than X next to each condition. The max *Piece Size* would be 16 MB for anything larger than 16 GB.
 ```
