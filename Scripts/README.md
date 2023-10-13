@@ -1,5 +1,5 @@
 # hardlink-mktorrent
-A script to make youre life easier when creating torrents IF you use mktorrent which i highly recommend.
+A script to make your life easier when creating torrents IF you use mktorrent which i highly recommend.
 ## What does it do?
 1. Create a hardlink for the contents of the folder you wish to create a torrent from.
 2. Create a folder to store the hardlinks in.
