@@ -54,7 +54,7 @@ announce="https://tracker.com/announce"
 ```
 If you want to add a comment, enter one here.
 ```
-comment=""
+comment="Enter comment here"
 
 ```
 
