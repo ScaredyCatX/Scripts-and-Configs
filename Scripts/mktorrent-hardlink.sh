@@ -21,7 +21,7 @@ for ext in mkv avi mp4; do
     fi
 done
 
-# If you wish to create a hardlink of everything in the folder, delete Line 13 to 22 and uncomment the next 4 lines (delete the # to uncomment)
+# If you wish to create a hardlink of everything in the folder, delete Line 14 to 22 and uncomment the next 4 lines (delete the # to uncomment)
 
 # echo "Creating hard links for each file in the original folder..."
 # for file in "$folder"/*; do
@@ -50,7 +50,7 @@ elif [ "$fsize" -le 16384 ];
 else psize="24";                  # Piece Size = 16 MB
 # else psize="23"
 fi
-# If you wish to have a max Piece Size of 8 MB, delete lines 50-52 and uncomment line 53
+# If you wish to have a max Piece Size of 8 MB, delete lines 48-50 and uncomment line 51
 echo "piece size is: $psize"      # just to check what Piece Size the script chose.
 
 echo "Creating torrent file..."
