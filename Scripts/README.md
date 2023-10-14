@@ -17,6 +17,7 @@ Now that we calculated the size, we'll check which *Piece Size* we should choose
 This piece of code ```"$fsize" -le xxx``` will check if the files we want to create a torrent from are less than X MB, and depending on the size of the files, it will choose the Piece Size.
 
 I've listed which *Piece Size* will be selected if the files sizes are less than X next to each condition. The max *Piece Size* would be 16 MB for anything larger than 16 GB.
+(i have no idea where i got this block of code from, so creadits goes to whoever wrote it ) 
 ```
 if [ "$fsize" -le 512 ];          # Piece Size = 256 KB
   then psize="18";                
