@@ -4,7 +4,7 @@ Most of the scripts i got over the internet and edited them to make them suit my
 At this point i don't even think i can reference where i got any script from, since they're heavly edited. But I'll try to if i manage to recall the original creator.
 
 ## hardlink-mktorrent
-A script to make youre life easier when creating torrents IF you use mktorrent which i highly recommend.
+A script using [mktorrent](https://github.com/pobrn/mktorrent) that makes youre life easier (at least mine) when creating torrents IF you use mktorrent which i highly recommend.
 **The script does the following.**
 
 1. Create a hardlink for the contents of the folder you wish to create a torrent from.
