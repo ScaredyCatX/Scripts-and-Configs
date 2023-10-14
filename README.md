@@ -1,7 +1,7 @@
 # Scripts-and-Configs
-A bunch of scripts for unraid and linux in general
-most of the scripts i got over the internet and edited them to make them suit my use case.
-at this point i don't even think i can reference where i got any script from, since they're heavly edited. But I'll try to if imanage to recall the original creator
+A bunch of scripts for unraid and linux in general.
+Most of the scripts i got over the internet and edited them to make them suit my use case.
+At this point i don't even think i can reference where i got any script from, since they're heavly edited. But I'll try to if i manage to recall the original creator.
 
 ## hardlink-mktorrent
 A script to make youre life easier when creating torrents IF you use mktorrent which i highly recommend.
